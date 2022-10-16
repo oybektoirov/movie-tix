@@ -14,7 +14,7 @@ const start = async () => {
 }
 
 app.get("/api/users/currentuser", (req, res) => {
-  res.send("hi");
+  res.send(res);
 });
 
 app.listen(3000, () => {
